@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.tangliang.fragments.MainFragment">
+
+    <!--Fragment标题-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/Title_MainFragment"/>
+
+    <!--异步任务示例-->
+    <Button
+        android:id="@+id/BtnAsyncTask_MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnText_AsyncTask_MainFragment"
+        android:textSize="@dimen/BtnTextSize_MainFragment"/>
+    <!--缓冲发送示例-->
+    <Button
+        android:id="@+id/BtnBuffer_MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnText_Buffer_MainFragment"
+        android:textSize="@dimen/BtnTextSize_MainFragment"/>
+
+</LinearLayout>

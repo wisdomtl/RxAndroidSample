@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestRxJava</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Fragment标题-->
+    <string name="Title_MainFragment">RxAndroid Samples</string>
+
+    <!--MainFragment按钮名称-->
+    <string name="BtnText_AsyncTask_MainFragment">AsyncTask</string>
+    <string name="BtnText_Buffer_MainFragment">Buffer</string>
+
+    <!--BufferFragment列表内容-->
+    <string-array name="LvEntries_BufferFragment">
+        <item>shanghai</item>
+        <item>beijing</item>
+        <item>guangzhou</item>
+    </string-array>
+</resources>
